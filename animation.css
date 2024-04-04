@@ -1,0 +1,24 @@
+header button,
+footer button {
+  transition: width 1s, height 2s, box-shadow 0s;
+}
+
+header button:hover {
+  transform: translate(3px, -3px);
+  box-shadow: -4px 4px #00ad6a;
+  cursor: pointer;
+}
+footer button:hover {
+  transform: translate(3px, -3px);
+  box-shadow: -4px 4px grey;
+}
+
+.navbar span:hover {
+  color: #080c16;
+  cursor: pointer;
+}
+
+.together .long:hover button,
+.together .short:hover button {
+  transform: scale(1.1);
+}

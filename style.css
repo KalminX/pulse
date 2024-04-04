@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  color: #00ad6a;
+  line-height: 1.2;
+  flex-direction: flex-start;
+}
+ul li {
+  list-style: url("images/bx-check.svg");
+  padding: 0.5em;
+  color: black;
+  font-size: small;
+}
+ul {
+  margin: 0.5em;
+}
+section {
+  background-color: #eafaf1;
+}
+
+body {
+  padding: 0 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #eafaf1;
+}
+h1,
+p {
+  text-align: center;
+  line-height: 1;
+}
+h1 {
+  color: black;
+}
+.p {
+  color: black;
+  font-weight: 600;
+  font-size: 10px;
+}
+.together .long .one span {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 900;
+  padding: 5px 0;
+}
+/****************************Nav bar********************************/
+
+header {
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+header div {
+  padding: 10px 10px;
+  background-color: #eafaf1;
+  color: #00ad6a;
+  width: 100%;
+}
+#head {
+  display: flex;
+}
+button {
+  background-color: #eafaf3;
+  border: 1.5px solid #00ad6a;
+  color: #00ad6a;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  font-weight: 600;
+  width: 100%;
+}
+
+#pricing {
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+section .bold {
+  text-align: center;
+}
+/****************************Try pulse********************************/
+main section div h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+/****************************Three boxes********************************/
+.three {
+  display: flex;
+  height: 34em;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 2em;
+}
+.three ul li p {
+  text-align: left;
+}
+.first .bold {
+  font-weight: bolder;
+}
+.first .pulse span,
+a {
+  color: black;
+}
+.bold span {
+  color: black;
+}
+#info h1 {
+  margin: 0 0 0.5em 0;
+}
+.first ul li {
+  color: black;
+  font-size: 0.8em;
+}
+.two {
+  display: flex;
+  gap: 0px;
+}
+.two div {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+.together {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+.together .long {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 56%;
+  border: 0.5px solid #00ad6a;
+}
+.together .long h1 {
+  color: #00ad6a;
+  margin-top: 1em;
+}
+.together .short {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 50%;
+  border: 0;
+}
+.together .short h1 {
+  margin-top: 1em;
+  color: #00ad6a;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+.three .first {
+  width: 12%;
+}
+
+.bizz2,
+.bizz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0 1.2em;
+  border: 0;
+  margin: 0 0.5em;
+}
+.bizz span,
+.bizz2 span {
+  color: #d6dae5;
+  font-size: medium;
+}
+
+.together div {
+  background-color: #fcfcfc;
+}
+.short .two {
+  background-color: #d6dae5;
+  color: black;
+  text-align: center;
+  padding: 1em;
+}
+
+/****************************Buttons in together********************************/
+.together button {
+  padding: 0.8em 1.8em;
+  margin: 1em 0;
+  color: #080c16;
+  background-color: #1fe374;
+  border: 0;
+  font-size: 1em;
+}
+/****************************banners********************************/
+
+.two div .one {
+  width: 100%;
+  background-color: #00ad6a;
+}
+.two div .two {
+  background-color: #d6dae5;
+  width: 100%;
+}
+.three .first {
+  width: 33%;
+}
+
+/****************************Before FAQ********************************/
+.ball_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  width: 100%;
+}
+.ball_logo p {
+  color: #080c16;
+}
+.ball_logo span {
+  font-size: 0.8em;
+}
+.ball_logo img {
+  width: 4em;
+  height: 4em;
+}
+
+/****************************FAQ********************************/
+section.faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fcfcfc;
+  font-size: medium;
+}
+.faq h1 {
+  text-align: left;
+}
+section .faq-text {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 0.5em;
+  height: 100%;
+}
+.faq-text div {
+  margin: 0.4em;
+  color: #080c16;
+}
+.faq-text div h3 {
+  color: #080c16;
+}
+.faq1,
+.faq2 {
+  width: 50%;
+}
+.info {
+  height: 10em;
+  overflow-y: auto;
+}
+
+/****************************FOOTER********************************/
+footer {
+  background-color: #080c16;
+  width: 100%;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+footer .one {
+  display: flex;
+  flex-direction: column;
+}
+footer > div:first-child {
+  padding: 2em 0em;
+}
+svg {
+  fill: green;
+  height: 3em;
+  width: 3em;
+}
+footer .one button {
+  background-color: #1fe374;
+  color: #080c16;
+}
+.links {
+  display: flex;
+}
+.links div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1em;
+}
+.links span {
+  color: #1fe374;
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+.links span:hover {
+  color: #fcfcfc;
+}
+.links h4 {
+  color: #fcfcfc;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  justify-content: flex-start;
+}
+.last p {
+  text-align: left;
+}
